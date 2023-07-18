@@ -180,6 +180,43 @@ nav{
     border: 4px solid #FF42A5;
     border-radius: 20px;
 }
+
+/* instant play */
+.instant-play-section{
+    margin: 0 100px;
+}
+.instant-play-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.play-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-ditels{
+    width: 400px;
+}
+/* .play-content{
+    width: 40%;
+}
+.play-image{
+    width: 60%;
+} */
+.main-img{
+    display: flex;
+    justify-content: end;
+}
+.main-img img{
+    width: 100%;
+    transform: translateX(25px);
+}
+.up-img img{
+    width: 50%;
+    position: relative;
+    bottom: 200px;
+    right: 100px;
+}
 /* responsive */
 @media screen and (max-width:576px) {
     .nav-container, .navbar, .nav-item ul {
